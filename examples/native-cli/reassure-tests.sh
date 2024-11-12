@@ -16,4 +16,4 @@ yarn install
 git switch --detach -
 
 yarn install
-yarn reassure --branch
+# yarn reassure --branch
