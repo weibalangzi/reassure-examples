@@ -10,7 +10,7 @@ git fetch origin
 git switch "$BASELINE_BRANCH"
 
 yarn install
-yarn reassure --baseline
+yarn reassure --baseline --verbose
 
 # Gather current perf measurements & compare results
 git switch --detach -
